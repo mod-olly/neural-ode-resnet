@@ -1,6 +1,6 @@
-numpy
-torch
-scikit-learn
-torchdiffeq
-matplotlib
-pandas
+numpy==1.25.0
+matplotlib==3.8.0
+pandas==2.1.0
+scikit-learn==1.3.0
+torch==2.1.0
+torchdiffeq==0.2.3
