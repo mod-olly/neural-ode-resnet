@@ -98,6 +98,8 @@ Course project: Neural ODE as a limit of Residual Networks
 pip install -r requirements.txt
 ```
 
+---
+
 ## Запуск экспериментов
 ### Игрушечная динамика
 ```bash
@@ -111,14 +113,24 @@ python spirals_classification.py
 ```
 Результаты сохраняются в results_spirals/.
 
-### Используемые библиотеки
-Python 3.8+
-NumPy
-Pandas
-Matplotlib
-PyTorch
-torchdiffeq
-scikit-learn
+---
+
+## Требования к среде (Requirements / Environment)
+
+Эксперименты были выполнены в следующей вычислительной среде:
+
+- **ОС:** Windows 10
+- **CPU:** Intel Core i7-9700K
+- **GPU:** NVIDIA RTX 3060 (используется PyTorch CUDA, fallback на CPU)
+- **Python:** 3.10
+- **Ключевые пакеты (с фиксированными версиями):**
+  - torch==2.1.0
+  - torchdiffeq==0.2.3
+  - numpy==1.25
+  - matplotlib==3.8
+  - pandas==2.1
+
+---
 
 ## Литература
 1. R.T.Q.Chen et al., Neural Ordinary Differential Equations, NeurIPS 2018
